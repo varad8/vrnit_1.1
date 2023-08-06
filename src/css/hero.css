@@ -1,0 +1,44 @@
+/* 
+// Hero Section /// */
+
+.hero {
+  height: 100vh;
+  background-image: url("../Icons//bg_for_hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content button {
+  background-color: #2067ff;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hero-content a {
+  color: #ffffff;
+  text-decoration: none;
+}

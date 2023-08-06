@@ -1,0 +1,40 @@
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slider-content {
+  flex: 0 0 auto;
+  width: 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.slider-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+}
+
+.slider-text h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.slider-text p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.slider img {
+  background: #ccc;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 300px;
+}

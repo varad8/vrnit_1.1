@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  border: 5px solid #ccc;
+}
+
+.glassmorphism-card:hover {
+  transform: scale(1.05);
+}
+/* styles.css (or any other CSS file) */
+
+.ad-box {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+  -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+.adsbygoogle {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+.navbar-brand,
+li {
+  font-family: "Rubik", sans-serif;
+}
+/* Follow Me Section */
+.follow-me-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-links li {
+  list-style: none;
+  font-size: 40px;
+}
+
+.social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  color: #ff3e3e !important; /* Color change on hover */
+}
+.social-links a {
+  color: #000000;
+}

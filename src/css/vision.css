@@ -1,0 +1,29 @@
+/* Add custom CSS for vision and mission container */
+.vision-mission-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 800px;
+  text-align: center;
+  height: auto;
+  border: 2px solid #007bff;
+}
+
+.quote-icon {
+  font-size: 30px;
+  color: #007bff;
+}
+
+.vision-statement {
+  margin-top: 20px;
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+
+@media (min-width: 992px) {
+  .vision-mission-container {
+    height: 400px;
+  }
+}

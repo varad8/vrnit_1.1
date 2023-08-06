@@ -1,0 +1,82 @@
+.pricing-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pricing-card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  margin: 20px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.pricing-card-content {
+  padding: 20px;
+}
+
+.pricing-card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-card-content p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-card-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-card-content li {
+  margin-bottom: 10px;
+}
+
+.pricing-card-content.selected {
+  background-color: #ffe6cc;
+}
+
+.pricing-card button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+.pricing-bg1 {
+  background: url("../../Icons//bg_hero_2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.pricing-bg1 .heading {
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+@media (max-width: 768px) {
+  .pricing-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pricing-card {
+    width: 90%;
+  }
+  .pricing-card button {
+    padding: 20px;
+    font-size: 18px;
+  }
+}

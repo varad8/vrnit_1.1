@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Responsive table container */
+.table-container2 {
+  overflow-x: auto;
+}
+
+/* Table header */
+.table-container2 th {
+  background-color: #ccc;
+  padding: 3px;
+  text-align: left;
+  border: 2px solid black;
+}
+
+/* Table body */
+.table-container2 td {
+  padding: 3px;
+  border: 2px solid black;
+}
+
+/* Hide horizontal scrollbar on smaller screens */
+@media screen and (max-width: 600px) {
+  .table-container2 {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .table-container2::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

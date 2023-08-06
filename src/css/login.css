@@ -1,0 +1,116 @@
+.bg-container {
+  background: linear-gradient(150deg, #000833, #301b00 100%);
+  color: white;
+  color: white !important;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: auto;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-google {
+  margin: 0;
+  padding: 0;
+}
+.login-google img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 10%;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.llogo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+#popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  /* CSS styles for screens larger than 767px, e.g. tablets, laptops, and desktops */
+  .card {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-top: 30px;
+  }
+  .llogo {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* CSS styles for screens larger than 767px, e.g. tablets, laptops, and desktops */
+  .login-form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .btn {
+    width: auto;
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-top: 30px;
+  }
+}

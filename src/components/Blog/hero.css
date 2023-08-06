@@ -1,0 +1,12 @@
+/* CSS file or style block within your component */
+
+.hero-section {
+   height: 400px;
+   max-height: 400px;
+    padding: 10px;
+    background:url("./heroimage.jpg")no-repeat;
+    background-size: cover; /* Set background image to cover the entire container */
+    background-position: center; /* Center the background image within the container */
+    backdrop-filter: blur(40px);
+}
+

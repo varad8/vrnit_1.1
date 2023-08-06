@@ -1,0 +1,155 @@
+.profile {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  background-color: #ccc;
+}
+
+.profile-header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.profile-header p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.profile-content {
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-content label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.profile-content input,
+.profile-content textarea {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.profile-content textarea {
+  height: 100px;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px solid #3f3131;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-button {
+  text-align: center;
+}
+
+.update-button button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-card {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+  .profile-image {
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+
+  .profile-info {
+    text-align: left;
+  }
+
+  .update-button {
+    text-align: right;
+  }
+}
+
+.profile-content button[type="submit"] {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .profile {
+    padding: 10px;
+  }
+
+  .profile-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
